@@ -1,0 +1,25 @@
+.result {
+    height: 30%;
+    padding: 10px 0;
+    width: 80%;
+}
+
+.result .wrapper {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 5px;
+
+    -webkit-box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+    box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+}
+
+.result .wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

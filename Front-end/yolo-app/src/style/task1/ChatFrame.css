@@ -1,0 +1,17 @@
+.app-chatframe {
+    height: 85%;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 5px;
+
+    -webkit-box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+    box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+
+    font-family: 'Sunflower', sans-serif;
+    overflow: auto;
+}
+
+.app-chatframe ul {
+    list-style: none;
+    padding: 0;
+}

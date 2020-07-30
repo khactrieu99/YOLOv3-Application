@@ -1,0 +1,105 @@
+.image-form {
+    height: 70%;
+    margin: 0;
+}
+
+.image-form .image-wrapper {
+    height: 100%;
+    width: 80%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 5px;
+
+    -webkit-box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+    box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+}
+
+.image-form .image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.input-btns {
+    width: 20%;
+}
+/* button submit */
+.input-btns .submit-btn {
+    border: 2px solid rgb(202, 159, 121);
+    background-color: white;
+    color: rgb(202, 159, 121);
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+
+.input-btns .submit-btn:hover {
+    background-color: rgb(202, 159, 121);
+    color: white;
+}
+
+/* button view image */
+.input-btns .view-btn {
+    border: 2px solid rgb(202, 159, 121);
+    background-color: white;
+    color: rgb(202, 159, 121);
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-btns .view-btn:hover {
+    background-color: rgb(202, 159, 121);
+    color: white;
+}
+
+/* file input */
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.upload-btn-wrapper:hover > .btn{
+    background-color: rgb(202, 159, 121);
+    color: white;
+}
+
+.btn {
+    border: 2px solid rgb(202, 159, 121);
+    color: rgb(202, 159, 121);
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.upload-btn-wrapper input[type=file] {
+    width: 200px;
+    height: 50px;
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}

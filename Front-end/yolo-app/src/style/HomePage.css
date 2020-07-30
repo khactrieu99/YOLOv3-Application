@@ -1,0 +1,60 @@
+.app-homepage {
+    height: 100%;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.app-homepage .header {
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.app-homepage .header h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: rgb(73, 102, 69);
+}
+
+.app-homepage .menu {
+    height: 40%;
+}
+
+.app-homepage .footer {
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu a { 
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 12px;
+    width: 250px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.menu a:nth-child(1) {
+    color: rgb(202, 159, 121);
+    border: 2px solid rgb(202, 159, 121);
+}
+
+.menu a:nth-child(2) {
+    color:rgb(202, 159, 121);
+    border: 2px solid rgb(202, 159, 121);
+}
+
+.menu a:nth-child(1):hover {
+    text-decoration: none;
+    background-color: rgb(202, 159, 121);
+    color: white;
+}
+
+.menu a:nth-child(2):hover {
+    text-decoration: none;
+    background-color:rgb(202, 159, 121);
+    color: white;
+}

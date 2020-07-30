@@ -1,0 +1,7 @@
+huongduong = "images/huongduong.jpg"
+dambut = "images/dambut.jpg"
+cucdai = "images/cucdai.jpg"
+chidai = "images/chidai.jpg"
+hoahong = "images/hoahong.jpg"
+thuocduoc = "images/thuocduoc.jpg"
+chanhleo = "images/chanhleo.jpg"

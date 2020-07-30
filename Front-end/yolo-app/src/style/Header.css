@@ -1,0 +1,36 @@
+.app-header {
+    height: 15%;
+    box-sizing: border-box;
+    position: relative;
+}
+.app-header h1 {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 60px;
+    color: rgb(73, 102, 69);
+    font-weight: bold;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.app-header .home-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.app-header  a {
+    width: 60px;
+    height: 60px;
+    color: rgb(137, 141, 136);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 40px;
+}
+
+.app-header a:hover {
+    text-decoration: none;
+    color: rgb(73, 102, 69);
+}

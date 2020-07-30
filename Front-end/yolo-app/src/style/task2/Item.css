@@ -1,0 +1,24 @@
+.img-item {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 5px;
+
+    -webkit-box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+    box-shadow: 1px 4px 13px -6px rgba(0,0,0,0.6);
+}
+
+.img-item:hover {
+    background-color: rgb(197, 197, 197);
+}
+
+.img-item img {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
